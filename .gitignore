@@ -1,0 +1,53 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Large trained models
+*.pth
+*.pt
+*.pkl
+*.joblib
+*.onnx
+*.h5
+
+# Datasets and backups
+*.zip
+*.csv
+*.parquet
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Hugging Face cache
+.cache/
+.cache/huggingface/
+
+# Python testing and build files
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# Local development files
+.vscode/
+
+# DINOv2 source downloaded automatically during deployment
+streamlit/models/dinov2_hub_source/
+streamlit/models/dinov2_hub_source_backup/
+streamlit/models/dinov2_download_temp/
